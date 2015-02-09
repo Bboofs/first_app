@@ -162,3 +162,537 @@ Your bundle is complete!
 Use `bundle show [gemname]` to see where a bundled gem is installed.
 
 C:\RORTutes>
+
+      create  config/initializers/mime_types.rb
+      create  config/initializers/session_store.rb
+      create  config/initializers/wrap_parameters.rb
+      create  config/locales
+      create  config/locales/en.yml
+      create  config/boot.rb
+      create  config/database.yml
+      create  db
+      create  db/seeds.rb
+      create  lib
+      create  lib/tasks
+      create  lib/tasks/.keep
+      create  lib/assets
+      create  lib/assets/.keep
+      create  log
+      create  log/.keep
+      create  public
+      create  public/404.html
+      create  public/422.html
+      create  public/500.html
+      create  public/favicon.ico
+      create  public/robots.txt
+      create  test/fixtures
+      create  test/fixtures/.keep
+      create  test/controllers
+      create  test/controllers/.keep
+      create  test/mailers
+      create  test/mailers/.keep
+      create  test/models
+      create  test/models/.keep
+      create  test/helpers
+      create  test/helpers/.keep
+      create  test/integration
+      create  test/integration/.keep
+      create  test/test_helper.rb
+      create  tmp/cache
+      create  tmp/cache/assets
+      create  vendor/assets/javascripts
+      create  vendor/assets/javascripts/.keep
+      create  vendor/assets/stylesheets
+      create  vendor/assets/stylesheets/.keep
+         run  bundle install
+Fetching gem metadata from https://rubygems.org/..........
+Resolving dependencies...
+Using rake 10.4.2
+Using i18n 0.7.0
+Using json 1.8.2
+Using minitest 5.5.1
+Using thread_safe 0.3.4
+Using tzinfo 1.2.2
+Using activesupport 4.2.0
+Using builder 3.2.2
+Using erubis 2.7.0
+Using mini_portile 0.6.2
+Using nokogiri 1.6.6.2
+Using rails-deprecated_sanitizer 1.0.3
+Using rails-dom-testing 1.0.5
+Using loofah 2.0.1
+Using rails-html-sanitizer 1.0.1
+Using actionview 4.2.0
+Using rack 1.6.0
+Using rack-test 0.6.3
+Using actionpack 4.2.0
+Installing globalid 0.3.2
+Using activejob 4.2.0
+Using mime-types 2.4.3
+Using mail 2.6.3
+Using actionmailer 4.2.0
+Using activemodel 4.2.0
+Using arel 6.0.0
+Using activerecord 4.2.0
+Using debug_inspector 0.0.2
+Using binding_of_caller 0.7.2
+Using bundler 1.7.12
+Installing coffee-script-source 1.9.0
+Installing execjs 2.3.0
+Using coffee-script 2.3.0
+Using thor 0.19.1
+Using railties 4.2.0
+Using coffee-rails 4.1.0
+Using columnize 0.9.0
+Using debugger-linecache 1.2.0
+Using debugger-ruby_core_source 1.3.8
+Using debugger 1.6.8
+Using hike 1.2.3
+Using multi_json 1.10.1
+Using jbuilder 2.2.6
+Using jquery-rails 4.0.3
+Using tilt 1.4.1
+Using sprockets 2.12.3
+Using sprockets-rails 2.2.4
+Using rails 4.2.0
+Using rdoc 4.2.0
+Installing sass 3.4.11
+Using sass-rails 5.0.1
+Using sdoc 0.4.1
+Using sqlite3 1.3.10
+Using turbolinks 2.5.3
+Installing tzinfo-data 1.2015.1
+Using uglifier 2.7.0
+Using web-console 2.0.0
+Your bundle is complete!
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+
+C:\RORTutes>cd first_app
+
+C:\RORTutes\first_app>dir
+ Volume in drive C is Windows7_OS
+ Volume Serial Number is E805-FEF9
+
+ Directory of C:\RORTutes\first_app
+
+09-Feb-15  23:53    <DIR>          .
+09-Feb-15  23:53    <DIR>          ..
+09-Feb-15  23:50               474 .gitignore
+09-Feb-15  23:50    <DIR>          app
+09-Feb-15  23:50    <DIR>          bin
+09-Feb-15  23:50    <DIR>          config
+09-Feb-15  23:50               153 config.ru
+09-Feb-15  23:50    <DIR>          db
+09-Feb-15  23:53             4,993 first_app_initial_installation.txt
+09-Feb-15  23:50             1,479 Gemfile
+09-Feb-15  23:51             4,162 Gemfile.lock
+09-Feb-15  23:50    <DIR>          lib
+09-Feb-15  23:50    <DIR>          log
+09-Feb-15  23:50    <DIR>          public
+09-Feb-15  23:50               249 Rakefile
+09-Feb-15  23:50               478 README.rdoc
+09-Feb-15  23:50    <DIR>          test
+09-Feb-15  23:50    <DIR>          tmp
+09-Feb-15  23:50    <DIR>          vendor
+               7 File(s)         11,988 bytes
+              12 Dir(s)  234,883,481,600 bytes free
+
+C:\RORTutes\first_app>Gemfile
+'Gemfile' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\RORTutes\first_app>rails server
+=> Booting WEBrick
+=> Rails 4.2.0 application starting in development on http://localhost:3000
+=> Run `rails server -h` for more startup options
+=> Ctrl-C to shutdown server
+[2015-02-09 23:56:28] INFO  WEBrick 1.3.1
+[2015-02-09 23:56:28] INFO  ruby 1.9.3 (2014-02-24) [i386-mingw32]
+[2015-02-09 23:56:28] INFO  WEBrick::HTTPServer#start: pid=6452 port=3000
+
+
+Started GET "/" for ::1 at 2015-02-09 23:57:16 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/railties-4.2.0/lib/rails/templates/rails/welcome/inde
+x.html.erb (8.0ms)
+Completed 200 OK in 172ms (Views: 152.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/properties" for ::1 at 2015-02-09 23:57:32 +0300
+Processing by Rails::InfoController#properties as HTML
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/railties-4.2.0/lib/rails/templates/rails/info/propert
+ies.html.erb (0.0ms)
+Completed 200 OK in 268ms (Views: 23.0ms | ActiveRecord: 35.0ms)
+[2015-02-10 00:06:03] INFO  going to shutdown ...
+[2015-02-10 00:06:03] INFO  WEBrick::HTTPServer#start done.
+Exiting
+Terminate batch job (Y/N)? y
+
+C:\RORTutes\first_app>git init
+Initialized empty Git repository in C:/RORTutes/first_app/.git/
+
+C:\RORTutes\first_app>git add .
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Gemfile.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Gemfile.lock.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in README.rdoc.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Rakefile.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in app/assets/javascripts/application.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in app/assets/stylesheets/application.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in app/controllers/application_controller.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in app/helpers/application_helper.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in app/views/layouts/application.html.erb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in bin/bundle.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in bin/rails.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in bin/rake.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in bin/setup.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config.ru.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/application.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/boot.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/database.yml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/environment.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/environments/development.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/environments/production.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/environments/test.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/initializers/assets.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/initializers/backtrace_silencers.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/initializers/cookies_serializer.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/initializers/filter_parameter_logging.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/initializers/inflections.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/initializers/mime_types.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/initializers/session_store.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/initializers/wrap_parameters.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/locales/en.yml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/routes.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/secrets.yml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in db/seeds.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in default_gitignore.gitignore.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in public/404.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in public/422.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in public/500.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in public/robots.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test/test_helper.rb.
+The file will have its original line endings in your working directory.
+
+C:\RORTutes\first_app>git commit -m "Initial Commit"
+[master (root-commit) b4392f8] Initial Commit
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Gemfile.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Gemfile.lock.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in README.rdoc.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Rakefile.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in app/assets/javascripts/application.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in app/assets/stylesheets/application.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in app/controllers/application_controller.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in app/helpers/application_helper.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in app/views/layouts/application.html.erb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in bin/bundle.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in bin/rails.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in bin/rake.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in bin/setup.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config.ru.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/application.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/boot.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/database.yml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/environment.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/environments/development.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/environments/production.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/environments/test.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/initializers/assets.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/initializers/backtrace_silencers.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/initializers/cookies_serializer.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/initializers/filter_parameter_logging.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/initializers/inflections.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/initializers/mime_types.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/initializers/session_store.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/initializers/wrap_parameters.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/locales/en.yml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/routes.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in config/secrets.yml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in db/seeds.rb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in default_gitignore.gitignore.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in public/404.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in public/422.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in public/500.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in public/robots.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test/test_helper.rb.
+The file will have its original line endings in your working directory.
+ 58 files changed, 1137 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 Gemfile
+ create mode 100644 Gemfile.lock
+ create mode 100644 README.rdoc
+ create mode 100644 Rakefile
+ create mode 100644 app/assets/images/.keep
+ create mode 100644 app/assets/javascripts/application.js
+ create mode 100644 app/assets/stylesheets/application.css
+ create mode 100644 app/controllers/application_controller.rb
+ create mode 100644 app/controllers/concerns/.keep
+ create mode 100644 app/helpers/application_helper.rb
+ create mode 100644 app/mailers/.keep
+ create mode 100644 app/models/.keep
+ create mode 100644 app/models/concerns/.keep
+ create mode 100644 app/views/layouts/application.html.erb
+ create mode 100644 bin/bundle
+ create mode 100644 bin/rails
+ create mode 100644 bin/rake
+ create mode 100644 bin/setup
+ create mode 100644 config.ru
+ create mode 100644 config/application.rb
+ create mode 100644 config/boot.rb
+ create mode 100644 config/database.yml
+ create mode 100644 config/environment.rb
+ create mode 100644 config/environments/development.rb
+ create mode 100644 config/environments/production.rb
+ create mode 100644 config/environments/test.rb
+ create mode 100644 config/initializers/assets.rb
+ create mode 100644 config/initializers/backtrace_silencers.rb
+ create mode 100644 config/initializers/cookies_serializer.rb
+ create mode 100644 config/initializers/filter_parameter_logging.rb
+ create mode 100644 config/initializers/inflections.rb
+ create mode 100644 config/initializers/mime_types.rb
+ create mode 100644 config/initializers/session_store.rb
+ create mode 100644 config/initializers/wrap_parameters.rb
+ create mode 100644 config/locales/en.yml
+ create mode 100644 config/routes.rb
+ create mode 100644 config/secrets.yml
+ create mode 100644 db/seeds.rb
+ create mode 100644 default_gitignore.gitignore
+ create mode 100644 first_app_initial_installation.txt
+ create mode 100644 lib/assets/.keep
+ create mode 100644 lib/tasks/.keep
+ create mode 100644 log/.keep
+ create mode 100644 public/404.html
+ create mode 100644 public/422.html
+ create mode 100644 public/500.html
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/robots.txt
+ create mode 100644 test/controllers/.keep
+ create mode 100644 test/fixtures/.keep
+ create mode 100644 test/helpers/.keep
+ create mode 100644 test/integration/.keep
+ create mode 100644 test/mailers/.keep
+ create mode 100644 test/models/.keep
+ create mode 100644 test/test_helper.rb
+ create mode 100644 vendor/assets/javascripts/.keep
+ create mode 100644 vendor/assets/stylesheets/.keep
+
+C:\RORTutes\first_app>git log
+commit b4392f8103bbc69e00f88284e8fc959bab4671a8
+Author: Loogs <bboofs@yahoo.com>
+Date:   Tue Feb 10 00:07:19 2015 +0300
+
+    Initial Commit
+
+C:\RORTutes\first_app>
+
+C:\RORTutes\first_app>git config --global user.name "Ben Loogs"
+
+C:\RORTutes\first_app>git config --global user.email "bboofs@yahoo.com"
+
+C:\RORTutes\first_app>git remote add origin git@github.com:Bboofs/first_app
+
+C:\RORTutes\first_app>git remote add origin git@github.com:Bboofs/first_app.git
+fatal: remote origin already exists.
+
+C:\RORTutes\first_app>git remote remove origin git@github.com:Bboofs/first_app
+usage: git remote remove <name>
+
+
+
+C:\RORTutes\first_app>git remote add origin git@github.com:Bboofs/first_app.git
+fatal: remote origin already exists.
+
+C:\RORTutes\first_app>git remote delete origin git@github.com:Bboofs/first_app
+error: Unknown subcommand: delete
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags|--no-tags] [--mirror=<fetch|push>] <n
+ame> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete |<branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+
+C:\RORTutes\first_app>git remote remove origin <git@github.com:Bboofs/first_app>
+The syntax of the command is incorrect.
+
+C:\RORTutes\first_app>git remote remove origin git@github.com:Bboofs/first_app
+usage: git remote remove <name>
+
+
+
+C:\RORTutes\first_app>git remote remove git@github.com:Bboofs/first_app
+error: Could not remove config section 'remote.git@github.com:Bboofs/first_app'
+
+C:\RORTutes\first_app>git remote add origin git@github.com:Bboofs/first_app.git
+fatal: remote origin already exists.
+
+C:\RORTutes\first_app>git remote rm origin
+
+C:\RORTutes\first_app>git remote add origin git@github.com:Bboofs/first_app.git
+
+C:\RORTutes\first_app>git push origin master
+The authenticity of host 'github.com (192.30.252.130)' can't be established.
+RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,192.30.252.130' (RSA) to the list of known hosts.
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\RORTutes\first_app>git remote rm origin
+
+C:\RORTutes\first_app>git remote add origin git@github.com:Bboofs/first_app
+
+C:\RORTutes\first_app>git push origin master
+Warning: Permanently added the RSA host key for IP address '192.30.252.128' to the list of known hos
+ts.
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\RORTutes\first_app>git remote set-url https://github.com/Bboofs/first_app.git
+usage: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    --push                manipulate push URLs
+    --add                 add URL
+    --delete              delete URLs
+
+
+C:\RORTutes\first_app>git remote set-url origin https://github.com/Bboofs/first_app.git
+
+C:\RORTutes\first_app>git push origin master
+Username for 'https://github.com': Bboofs
+Password for 'https://Bboofs@github.com':
+To https://github.com/Bboofs/first_app.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/Bboofs/first_app.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\RORTutes\first_app>git push origin master
+Username for 'https://github.com': Bboofs
+Password for 'https://Bboofs@github.com':
+To https://github.com/Bboofs/first_app.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/Bboofs/first_app.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\RORTutes\first_app>git push --help
+Launching default browser to display HTML ...
+
+C:\RORTutes\first_app>git push origin master -f
+Username for 'https://github.com': Bboofs
+Password for 'https://Bboofs@github.com':
+Counting objects: 65, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (54/54), done.
+Writing objects: 100% (65/65), 17.82 KiB | 0 bytes/s, done.
+Total 65 (delta 2), reused 0 (delta 0)
+To https://github.com/Bboofs/first_app.git
+ + 43ae3ce...b4392f8 master -> master (forced update)
+
+C:\RORTutes\first_app>git checkout -b modify-README
+Switched to a new branch 'modify-README'
+
+C:\RORTutes\first_app>
